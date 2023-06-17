@@ -9,10 +9,7 @@ const Navbar = () => {
             <Link href="/" className='flex justify-center items-center'>
                 <Image src='/car-expert.png' alt="Car Expert Logo" width={118} height={25} className='obejct-contain'></Image>
             </Link>
-            <CustomButton
-            title="Sign in"
-            btnType="button"
-            containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'/>
+           
         </nav>
     </header>
   )
